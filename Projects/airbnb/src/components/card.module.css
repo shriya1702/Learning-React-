@@ -1,0 +1,29 @@
+.det{
+  display:flex;
+  align-items: center;
+}
+.det--img{
+  height:14px;
+}
+.det.span{
+  color:grey;
+}
+.card{
+  width: 175px;
+  font-size: 12px;
+  font-family: 'poppins';
+
+}
+
+.card--img{
+  width:100%;
+  
+}
+.grey{
+  color:grey;
+}
+
+h2{
+  font-size: 0.75rem;
+  font-weight: normal;
+}

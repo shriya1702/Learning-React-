@@ -1,0 +1,17 @@
+h1{
+  font-weight:700;
+  font-size:50px;
+  margin:10px;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 100%;
+}
+
+.cont{
+  display: grid;
+  text-align: left;
+  gap: 10px ;
+  margin-top: 10px;
+}
