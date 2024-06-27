@@ -22,8 +22,8 @@ function Main({ onAddItem }) {
   };
 
   return (
-    <div className="row">
-      <div className="col-6">
+    <div classNameName="row">
+      <div classNameName="col-6">
         <input
           type="text"
           value={todoName}
@@ -31,17 +31,17 @@ function Main({ onAddItem }) {
           onChange={handleNameChange}
         />
       </div>
-      <div className="col-4">
+      <div classNameName="col-4">
         <input
           type="date"
           value={date}
           onChange={handleDateChange}
         />
       </div>
-      <div className="col-2">
+      <div classNameName="col-2">
         <button
           type="button"
-          className="btn btn-success"
+          classNameName="btn btn-success"
           onClick={handleAddButtonClick}
         >
           <MdAddComment />

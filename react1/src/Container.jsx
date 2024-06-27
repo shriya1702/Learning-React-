@@ -3,7 +3,7 @@ import styles from "./Container.module.css"
 
 
 const Container = (props) =>{
-  return <div className={styles.Container}> {props.children}  </div>
+  return <div classNameName={styles.Container}> {props.children}  </div>
 
 }
 

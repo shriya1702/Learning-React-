@@ -3,7 +3,7 @@ import styles from  "./Display.module.css";
 
 const Display= () =>{
    return(
-    <input className={styles.display} placeholder="enter" type="text"/> 
+    <input classNameName={styles.display} placeholder="enter" type="text"/> 
 
    )
 }

@@ -14,14 +14,14 @@ function Hello(){
 
   return(
   < >
-<h1 className= {styles.yoo}> welcome to my house
+<h1 classNameName= {styles.yoo}> welcome to my house
     My name is {fullname()} and my daughters name is  {myname}
   </h1>
   <p> This content is passes as children to the conainer</p>
 
   
 
-  <button className={styles.btn} onClick={handleclick} > CLICK ME DAMMIT </button>
+  <button classNameName={styles.btn} onClick={handleclick} > CLICK ME DAMMIT </button>
 
 
  

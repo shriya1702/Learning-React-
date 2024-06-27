@@ -1,10 +1,10 @@
 const Chai = ( {items} ) => {
 
   return (
-   <ul className= {'list-group'}>
+   <ul classNameName= {'list-group'}>
     {
        items.map( (item) => (
-           <li key= {item} className={'list-group-item '} >  {item} 
+           <li key= {item} classNameName={'list-group-item '} >  {item} 
           </li>  )
  
        )

@@ -1,9 +1,9 @@
 
 const cat= () => {
 return(
-  <div className="card">
-    <div className="main">
-    <img className={styles['card-img']} src  ></img>
+  <div classNameName="card">
+    <div classNameName="main">
+    <img classNameName={styles['card-img']} src  ></img>
     <h2></h2>
     </div>
 

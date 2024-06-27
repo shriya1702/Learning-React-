@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Appname from './components/appname';
-import Main from './components/maincontent';
+import Main from './components/AddTodo';
 import List from './components/list';
 import Message from './components/TaskCompleteMessage';
 
@@ -21,8 +21,8 @@ function App() {
   };
 
   return (
-    <center className='todo'>
-      <div className="container text-center">
+    <center classNameName='todo'>
+      <div classNameName="container text-center">
         <Appname />
         <Main onAddItem={handleOnAdd} />
         {todoItems.length === 0 && <Message />}
